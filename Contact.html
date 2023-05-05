@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Group10</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,p,h1,h2,h3,h4,h5,h6 {font-family: "Anton", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://media.discordapp.net/attachments/949097361127383112/1081155657102794843/Copy_of_Twitch_Banner_6.png");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a  class="w3-bar-item w3-button w3-wide"><img class="w3-image w3-round-large" src="https://media.discordapp.net/attachments/949097361127383112/1052493756294778910/image.png" alt="Logo" width="100" height="70"><p style="font-size:25px">STARFRUITS</a> 
+    
+    <!-- Right-sided navbar links -->
+<div class="w3-right w3-hide-small">
+
+      <p style="font-size:20px"><a href="home.html" class="w3-bar-item w3-button"><i class="fa fa-heart"style="font-size:20px;color:#17BEBB;"></i>HOME</a>
+      <a href="about.html" class="w3-bar-item w3-button">ABOUT US</a>
+<a href="qua1.html" class="w3-bar-item w3-button"> Q1</a>
+<a href="qua2.html" class="w3-bar-item w3-button"> Q2</a>
+<a href="qua3.html" class="w3-bar-item w3-button"> Q3</a>
+<a href="qua4.html" class="w3-bar-item w3-button"> Q4</a>
+      <a href="Contact.html" class="w3-bar-item w3-button"> CONTACT US</a>
+      <a href="Event.html" class="w-bar-item w3-button"> OUR EVENT</a>
+    </div>
+
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="home.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
+<a href="qua1.html" onclick="w3_close()" class="w3-bar-item w3-button">Q1</a>
+<a href="qua2.html" onclick="w3_close()" class="w3-bar-item w3-button">Q2</a>
+<a href="qua3.html" onclick="w3_close()" class="w3-bar-item w3-button">Q3</a>
+<a href="qua4.html" onclick="w3_close()" class="w3-bar-item w3-button">Q4</a>
+  <a href="Contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
+  <a href="Event.html" onclick="w3_close()" class="w3-bar-item w3-button">OUR EVENT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container" id="home">
+  
+  <div class="w3-display-bottomleft w3-text-white w3-large" style="padding:24px 48px">
+       <a href="https://www.facebook.com/profile.php?id=100088666781652" class="fa fa-facebook-official w3-hover-opacity"></a>
+    <a href="https://www.youtube.com/@starfruitsreact" class="fa fa-youtube-play w3-hover-opacity"></a>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+<div class="w3-container w3-center w3-teal" style="padding:128px 16px">
+
+<!-- Contact -->
+<div class="w3-sand w3-large">
+<div class="w3-container" style="padding:128px 16px" id="about">
+
+<!-- Contact/Area Container -->
+    <h1><button class="w3-button w3-black" type="submit">CONTACT</button></h1>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Name"></p>
+
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" ></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <h1><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></h1>
+    </form>
+  </div>
+</div>
+  </div>
+  </div>
+  
+   <!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <div class="w3-xlarge w3-section">
+       <a href="https://www.facebook.com/profile.php?id=100088666781652" class="fa fa-facebook-official w3-hover-opacity"></a>
+    <a href="https://www.youtube.com/@starfruitsreact" class="fa fa-youtube-play w3-hover-opacity"></a>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+  
+<script>
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+</script>
+</body>
+</html>
+  
+
+  
+
+
